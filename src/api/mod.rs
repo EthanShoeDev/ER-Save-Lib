@@ -3,3 +3,4 @@ pub(crate) mod inventory;
 pub mod save_api;
 mod text;
 mod vanilla_check;
+pub mod web_export;

@@ -440,8 +440,8 @@ pub(crate) struct PlayerGameData {
 #[derive(PartialEq, Debug, DekuRead, DekuWrite, Clone)]
 #[deku(endian = "endian", ctx = "endian: Endian")]
 pub(crate) struct SPEffect {
-    sp_effect_id: i32,
-    remaining_time: f32,
+    pub(crate) sp_effect_id: i32,
+    pub(crate) remaining_time: f32,
     unk0x8: u32,
     unk0x10: u32,
 }

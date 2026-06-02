@@ -60,7 +60,7 @@ pub struct Param<P: param_structs::param_trait::Param> {
 }
 
 pub struct SaveApi {
-    raw: Save,
+    pub(crate) raw: Save,
 }
 
 impl SaveApi {
